@@ -1,38 +1,54 @@
-# vue-temp
+# Examen Final - Desarrollo de Aplicaciones Web
 
-This template should help get you started developing with Vue 3 in Vite.
+## Descripción
 
-## Recommended IDE Setup
+Aplicación web desarrollada con Vue.js 3, Bootstrap 5 y MockAPI para la gestión de usuarios y productos mediante operaciones CRUD, autenticación y protección de rutas.
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Tecnologías Utilizadas
 
-## Recommended Browser Setup
+* Vue.js 3
+* Vue Router
+* Bootstrap 5
+* Bootstrap Icons
+* Axios
+* MockAPI
+* Git y GitHub
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Instalación
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+## Ejecución
 
-```sh
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+## Estructura del Proyecto
 
-```sh
-npm run build
-```
+* `/components` Componentes reutilizables
+* `/views` Vistas principales
+* `/router` Configuración de rutas
+* `/services` Consumo de MockAPI
+* `/assets` Recursos estáticos
+
+## Funcionalidades
+
+* Inicio de sesión
+* Rutas protegidas
+* CRUD de Usuarios
+* CRUD de Productos
+* Modales Bootstrap
+* Alertas Bootstrap
+* Diseño responsive
+
+## Integrantes
+
+* Julian Esteban Devera Escalante 0192587
+* Kevin Libardo Rosas Quintero 0192550
+
+## Repositorio
+
+https://github.com/JulianEDE/examen-des-app-web
